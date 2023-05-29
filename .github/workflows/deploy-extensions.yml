@@ -20,5 +20,5 @@ jobs:
           # Token from the Partner Dashboard
           SHOPIFY_CLI_PARTNERS_TOKEN: ${{ secrets.SHOPIFY_CLI_PARTNERS_TOKEN }}
           # .env content after a deploy
-          SHOPIFY_API_KEY: ${{ secrets.SHOPIFY_API_KEY }}
+          SHOPIFY_API_KEY: eecce11abe993abac8e532b6a5f0acf9
         run: npm run deploy -- -f
